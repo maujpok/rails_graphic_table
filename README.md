@@ -4,7 +4,7 @@
 
 To run this app on your local pc, please:
 1) Clone the repository locally
-2) In console, run: *db:migrate*
+2) In console, run: *rails db:create* (before this, update parameters for your local PostgreSQL), then run *rails db:migrate* (to create tables on database), and finally run      *rails db:seed* (to create random registers).
 3) Run *bundle*
 4) Run *rails s*
 5) See the app on local port 3000.
