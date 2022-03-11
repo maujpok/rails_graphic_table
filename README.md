@@ -25,5 +25,5 @@ The idea of this project is show how we can make graphics with any data informat
 
 Version 1.0 (I will improve it, of course!) =)
 
-* ...
+
 # rails_graphic_table
