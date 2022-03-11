@@ -9,6 +9,8 @@ To run this app on your local pc, please:
 4) Run *rails s*
 5) See the app on local port 3000.
 
+* Deploy: https://rails-graphic-tables.herokuapp.com/
+
 # Feel free to play with it!
 
 This code was made using this gem's:
