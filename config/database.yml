@@ -1,5 +1,3 @@
-require 'dotenv'
-
 default: &default
   adapter: postgresql
   encoding: unicode
@@ -8,7 +6,7 @@ default: &default
 
 development:
   <<: *default
-  database: expenses
+  database: expenses_db
   username: postgres
   password: 000000
   host: localhost
@@ -16,7 +14,12 @@ development:
 
 
 test:
-  <<: *development
+  <<: *default
+  database: expenses_db
+  username: postgres
+  password: 000000
+  host: localhost
+  port: 5432
 
 production:
   url: <%= ENV['DATABASE_URL'] %>
