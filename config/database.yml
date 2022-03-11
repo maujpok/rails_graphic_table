@@ -2,7 +2,7 @@ require 'dotenv'
 
 default: &default
   adapter: postgresql
-  encoding: UTF8
+  encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   
 
@@ -16,14 +16,8 @@ development:
 
 
 test:
-  <<: *default
-  database: expenses
-  username: postgres
-  password: 000000
-  host: localhost
-  port: 5432
+  <<: *development
 
 production:
-  <<: *default
-
+  url: <%= ENV['DATABASE_URL'] %>
 
