@@ -1,25 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Rails graphic table project
 
-Things you may want to cover:
+This code was made using this gem's:
+# * Faker
+# * chartkick
+# * groupdate
 
-* Ruby version
+Links to Gem's:
+ * Faker: https://rubygems.org/gems/faker/versions/1.6.6?locale=es
+ * Chartkick: https://rubygems.org/gems/chartkick/versions/1.4.1?locale=es
+ * Groupdate: https://rubygems.org/gems/groupdate/versions/6.0.1
 
-* System dependencies
+The idea of this project is show how we can make graphics with any data information in a few steps and easy code.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+Version 1.0 (I will improve it, of course!) =)
 
 * ...
 # rails_graphic_table
