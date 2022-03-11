@@ -31,6 +31,7 @@ gem 'rails-jquery-autocomplete'
 gem 'faker', '~> 2.20'
 gem 'chartkick', '~> 4.1', '>= 4.1.3'
 gem 'groupdate', '~> 6.0', '>= 6.0.1'
+gem 'dotenv-rails', groups: [:development, :test]
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
