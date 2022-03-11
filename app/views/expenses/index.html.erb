@@ -1,11 +1,15 @@
+<h3>Line Chart</h3>
 <%= line_chart Expense.group_by_week(:date).sum(:amount), prefix: "$", thousands: "." %>
+<br><hr><br>
+<h3>Column Chart</h3>
+<%= column_chart @column_data, stacked: true, prefix: "$", thousands: "." %>
+<br><hr><br>
+<h3>Pie Chart</h3>
+<%= pie_chart Expense.group(:type).sum(:amount), prefix: "$", thousands: "." %>
 
-<%= column_chart @column_data, stacked: true %>
+<br><hr><br>
 
-<%= pie_chart Expense.group(:type).sum(:amount) %>
-
-<br>
-
+<h3>Data Table</h3>
 <table>
     <thead>
         <tr>
